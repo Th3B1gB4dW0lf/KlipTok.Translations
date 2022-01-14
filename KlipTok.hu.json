@@ -1,0 +1,174 @@
+{
+	// Components
+
+	// Clip
+	"Recorded": "Rögzítve {0}", // {0} is the relative timestamp of when the Clip was recorded: "3 days ago"
+	"Likes": "Kedvelések",
+	"Comments": "Hozzászólások",
+	"ClipViews": "Klipp megtekintései",
+	"ShareThisClip": "Klipp megosztása",
+	"KlipTokContentPlaceholder": "KlipTok tartalma",
+	"ClippedByFormat": "Klippet létrehozta: {0}", // {0} is the display name of the clip creator
+	"PreviewThumbnailForClip": "Klipp Thumbnailjének előnézete '{0}'", // Alternate text for the thumbnail for a clip.  {0} is the title of the clip
+
+	// Comments
+	"ByLineFormat": "At {0} {1} wrote:", // {0} is relative timestamp of when the comment was written, {1} is the name of the commenter
+	"Reply": "Válasz",
+
+	// Login View
+	"DarkMode": "Sötét mód",
+	"LoginWithTwitch": "Bejelentkezés Twitch fiókkal",
+	"Logout": "Kijelentkezés",
+	"MyStreamerPage": "A Streamer oldala",
+
+	// Header
+	"SearchForChannel": "Streamer keresése...", // Deprecated
+	"SearchNotFoundFormat": "A kifejezés nem található {0} ", // {0} is the search term that was not found
+
+	// Search and Search Results
+	"SearchKlipTok": "KlipTok keresése...",
+	"SearchAllOfKlipTok": "Kutasd át a Kliptokot a(z) {0} után", // {0} is the search term to search clips for
+	"SearchResults": "Keresési találatok",
+	"SearchedKlipTokAndFoundTemplate": "Átkutattuk a KlipTokot a(z) \"{0}\" után és ezt találtuk:", // {0} is the term sought
+	"StreamerPlayingCategoryTemplate": "{0} a következővel játszik: {1}", // {0} is the streamer name, {1} is the category played,
+	"SearchedClipTitlesAndFoundTemplate": "Results from clip title search for text: {0}", // {0} is the search term for the clip title search
+	"AdvancedFiltering": "Részletes szűrés",
+	"IncludeChannels": "Csatold a következő csatornákat",
+	"ExcludeChannels": "A következő csatornák kizárása",
+	"FilterButton": "Szűrés", // The button to apply the advanced search filter
+	"PreviousPage": "Előző oldal",
+	"NextPage": "Következő oldal",
+
+	// Sidebar
+	"SuggestedStreamers": "Ajánlott Streamerek",
+	"FollowedStreamers": "Követett Streamerek",
+	"AllStreamers": "Minden Streamer",
+	"About": "Az oldalról",
+	"Feedback": "Visszajelzés", // Link to the KlipTok Feedback website
+	"Close": "Bezárás",
+
+	// Streamer Page
+	"ClickToFollow": "Kattins a követéshez",
+	"ClickToUnfollow": "Kattints a követés leállításához",
+	"ActionOnTwitchTemplate": "{0} Twitchcsen", // {0} will be replaced with "Follow" or "Unfollow" to read "Follow on Twitch"
+	"LiveOnTwitch": "Élő adásban van Twitchen!",
+	"ProfilePicTemplate": "{0} profilkép", // {0} is the Streamer's Display Name
+	"TotalClipsOnKlipTok": "Összes Klipp a KlipTokon",
+	"TotalLikesAcrossAllClips": "Total Likes across all Clips",
+	"TotalCommentsAcrossAllClips": "Total Comments across all Clips",
+	"TotalViewsAcrossAllClips": "Total views across all Clips",
+	"LastClipAdded": "Legfrisebb Klipp Hozzáadva:",
+	"LastClip": "Legfrisebb Klipp:",
+	"NoProfilePicAvailable": "Profilkép nem elérhető",
+	"DateRangePicker_Start": "Innentől", // The Start Date label on the filter on the streamer page
+	"DateRangePicker_End": "Idáig", // The End Date label on the filter on the streamer page
+	"ShareStreamer": "Streamer megosztása", // The tooltip for the Share button on the streamer page
+	"SelectCategory": "Kategória kiválasztása", // The default text for the Category Filter combobox
+	"UnknownStreamer": "Ismeretlen Streamer: {0}", // The header when an unknown streamer is requested
+	"UnknownStreamerDescription": "KlipTok nem talált ilyen nevű Streamert {0}.  If this is a real channel, you can add them with the following directions",
+	"NoRecentClips": "Nincs friss klippinformáció", // Error message displayed on dashboard when no recent clips are available
+
+	// Layout
+	"PublicBeta": "PUBLIKUS BÉTA",
+	"LoggedOutFromKlipTokAndTwitch": "Kijelentkezés a KlipTokból és a Twitch fiókodból",
+	"LoginToKlipTokWithTwitch": "Bejelentkezés KlipTokra Twitch fiókkal",
+	"AuthenticationIsNoLongerValid": "Your authentication with Twitch and KlipTok is no longer valid. Kérlek jelentkezz be a KlipTokra a Twitch fiókoddal a folytatáshoz.",
+	"Loading": "Betöltés...",
+
+	// Errors
+	"ErrorWhileLoading": "Hiba történt betöltés közben.",
+	"RetryButton": "Újrapróbálkozás",
+
+	// Follows page
+	"TwitchChannelsIFollow": "Követett Streamereim",
+	"NotLoggedIn": "Unable to display records of accounts you follow on Twitch because you are not logged in with a Twitch account.  Please login and sync your followed streamers with KlipTok to access this functionality.",
+
+	// Home Page
+	"DiscoverPopularClips": "Népszerű Klippek Felfedezése",
+	"DiscoverClips": "Klippek felfedezése",
+	"InsertCoin": "Érme bedobása",
+	"MyFavoriteChannels": "Klippek a követett csatornáimról", // Tooltip for the Following tab
+	"Favorites": "Követés", // Renamed on April 27, 2021 to "Following"
+	"ClipsILike": "Klippek, amiket szeretek",
+	"LikedClips": "Kedvelt Klippek",
+	"UserProfile": "Felhasználói Profil",
+
+	// Filters on the scrollable clips
+	"FilterByCategory": "Kategória szűrése", // watermark on the filter by category type-ahead box
+
+	// Liked Clips
+	"NoLikedClips": "Még egy Klippet se kedveltél a Kliptokon!",
+	"TryLikeButtonTemplate": "Try clicking the heart icon {0} below a Clip to 'Like' it and we'll report it here for you so you can easily find it again in the future", //  {0} is the heart icon
+
+	// User Profile
+	"DoesNotKeepSeparateUserInformation": "KlipTok does not keep separate user information from Twitch, and is built as a service to augment Twitch Clips.",
+	"AutoPlayVideosOnScroll": "Videók automatikus lejátszása böngészés közben",
+	"IndexClipsOfMyChannel": "Klippjeim indexelése",
+	"OptedOutDateTemplate": "Opted out of indexing on: {0}", // {0} is the datestamp of when opt-out was recorded 
+	"SaveMyChanges": "Változtatások mentése",
+	"SyncFollowersWithKlipTok": "Sync Followed Streamers with KlipTok",
+	"MutedChannels": "Lenémított Streamerek",
+	"Channel": "Streamer",
+	"MutedUntil": "Eddig némítva",
+	"RightToForget": "Jogod van felejteni",
+	"DangerZone": "[ Veszélyzóna ]", // This is a label indicating the items beneath it make destructive changes to your record on the application 
+	"RightToForgetDescription": "You have the right to request KlipTok forgets all information that you have shared.  By clicking this link and confirming, KlipTok will remove all of your Comments, Likes, and Clips.",
+	"RemoveMyContentFromKlipTok": "Töröld a tartalmamat a KlipTokról",
+	"ForgottenAsOfTemplate": "Elfelejtve : {0}", // {0} is the datestamp of when the 'forget' action was taken
+
+	// Single Clip Page
+	"MissingClipError": "KlipTok does not have a record of this Clip.  It either does not exist or the Twitch channel has opted out of participating on KlipTok.",
+	"LikedBy": "Kedvelve :",
+	"UserLikedTimeTemplate": "{0} kedvelte {1}", // {0} is the user display name who liked the Clip and {1} is the relative datestamp of the Like action
+	"InReplyToTemplate": "Neki válaszul: {0}", // {0} is the user display name whose comment we are replying to
+	"EnterNewComment": "Hozzászólás...",
+	"LoginWithTwitchToComment": "Bejelentkezés Twitch fiókkal a hozzászóláshoz",
+	"CommentButton": "Hozzászólás",
+
+	// Streamer Page
+	"MuteForLabel": "Következők némítása:",
+	"StreamerIsMutedUntilTemplate": "Streamer lenémítva eddig: {0}", // {0} is a datestamp of when the mute operation ends
+	"NoMute": "Némítás feloldása", // Remove the mute effect on this streamer so that you can see their content again
+	"Forever": "Örökké", // Label for "Mute Forever" action button
+	"SortByLabel": "Rendezve:",
+	"Views": "Megtekintések", // The number of Clip Views for a Clip that we are sorting by
+	"Score": "Pontszám", // A reference to the KlipTok algorithm assigned score for this Clip
+	"Latest": "Legújabb", // A selector for the sort order to indicate the most recent created Clips should appear first
+	"ClipsFromLabel": "Klippek innen:", // Label above the date range filter component
+	"SearchButton": "Keresés", // Text on the search button to filter by date range
+	"ResetButton": "Visszaállítás", // Text on the reset button to no longer filter by date range
+	"NoClipsAvailable": "Nincs Elérhető Klipp",
+	"AddClipsForThisStreamer": "Klippek hozzáadása a következő Streamerhez",
+	"NotifyOnOptIn": "Kérlek vedd figyelembe: Ha Klippeket adsz hozzá ehhez a Streamerhez, akkor kérjük, jelezd feléjük, hogy hozzáadtad a Klippjeit ehhez az oldhalhoz. Nem tudjuk közvetlenül elérni a műsor szolgáltatóját.",
+
+	// Streamer Dashboard
+	"Live": "ÉLŐ", // Text for the red live indicator.  Should be all capitalized
+	"ClipsTab": "Klippek", // Label for the Clips tab on the top of the Streamer page
+	"DashboardTab": "Dashboard", // Label for the dashboard tab on the top of the Streamer page 
+	"CreatedClipsTab": "Létrehozott Klippek", // Label for the Created Clips tab on the Streamer page
+	"ClipsCreatedLast90Days": "Az elmúlt 90 napban létrehozott Klippek", // Label for the Clips Created in the last 90 days graph
+	"ClipsCreatedPerWeek": "Létrehozott Klippek heti lebontásban", // The label on the x-axis for the Clips Created in the Last 90 days graph
+	"ClipsByDayOfWeek": "Klippek a hét napja szerint", // Label for the clips by the day of week tile
+	"TitleDayCreated": "Létrehozás napja", // Title for the Clips by Day of week radar chart
+	"MostViewedClippers": "Legnézettebb Klipperek", // Label for the Most Viewed Clippers table
+	"MostViewedCategories": "Legnézettebb kategóriák", // Label for the Most Viewed Categories table
+	"MostLikedClippers": "Legkedveltebb Klipperek",
+
+	// Transcription Features
+	"ClipHasTranscription": "Ez a klipp rendelkezik kereshető fonetikus átirattal", // Tooltip for the transcription icon
+	"SearchResultsFromTranscriptionSearch": "Results from clip transcription search for text: {0}", // Clip transcription search results header.  {0} is the search text
+	"ClipTranscriptionByAssemblyAI": "Klipp fonetikus átirata AssemblyAI-al:", // Clip transcription attribution to AssemblyAI
+
+	// System Dashboard
+	"SystemStatus": "Rendszerállapot",
+	"SystemStatusDashboard": "Rendzserállapot Dashboardja",
+	"SystemDashboardDescription": "A KlipTok növekedésével kapcsolatos információinkat nyíltan elérhetővé tesszük a számodra.",
+	"TotalClips": "Összes Klipp",
+	"ChannelsIndexed": "Indexelt csatornák",
+	"NewChannelsToday": "A mai nap új csatornái",
+	"TotalChannelsIdentified": "Az összes beazonosított csatorna",
+	"TotalClipsTranscribed": "Fonetikus átírattal rendelkező klippek",
+	"ClipsTranscribedByDate": "Fonetikus átírattal rendelkező klippek dátum szerint",
+	"ClipsByDate": "Klippek Dátum Szerint"
+
+}
